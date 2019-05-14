@@ -19,7 +19,7 @@ stages:
   jobs:  
   - deployment: VMDeploy
     displayName: Deploy to VM job
-    environment: Fabrikam.DevMachines
+    environment: arjunenv
     strategy:
       rolling:
         maxBatchSize: 2
