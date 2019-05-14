@@ -7,7 +7,7 @@ stages:
     displayName: Deploy to VM job
     environment: arjunenv
     strategy:
-      runonce:
+      runOnce:
         deploy:
           steps:
             - script: echo Hello, world! This is deploy job
