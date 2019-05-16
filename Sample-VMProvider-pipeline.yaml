@@ -8,7 +8,7 @@ stages:
     environment: arjunenv.vg1
     strategy:
       rolling:
-        maxBatchSize: 2
+        maxBatchSize: 1
         deploy:
           steps:
             - script: echo Hello, world! This is deploy job
